@@ -44,7 +44,9 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="5dp" />
+        android:layout_marginTop="5dp"
+        android:max="10"
+        android:progress="1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -68,7 +70,7 @@
         android:id="@+id/SecondcheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Do Obejrzane"
+        android:text="Przeczytane"
 
         />
 
