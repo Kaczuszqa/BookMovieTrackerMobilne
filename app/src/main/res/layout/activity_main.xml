@@ -60,6 +60,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Film"/>
+    <RadioButton
+        android:id="@+id/Radio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Książka"/>
+    </RadioGroup>
     <CheckBox
         android:id="@+id/FirstcheckBox"
         android:layout_width="wrap_content"
